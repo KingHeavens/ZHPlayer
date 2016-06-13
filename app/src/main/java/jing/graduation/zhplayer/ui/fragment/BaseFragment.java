@@ -13,8 +13,8 @@ import jing.graduation.zhplayer.R;
 import jing.graduation.zhplayer.ui.IUI;
 
 /**
- * Created by Administrator on 2016/3/27.
- * Desc:
+ * Created by zhjing03 on 2016/3/27.
+ * Desc:基类 Fragment
  * Version:
  * History:
  */
@@ -30,8 +30,8 @@ public abstract class BaseFragment extends Fragment implements IUI,View.OnClickL
         mContext = mActivity.getApplicationContext();
         view = inflater.inflate(getLayoutID(),null);
         initView();
-        initData();
         initListener();
+        initData();
         return view;
     }
 

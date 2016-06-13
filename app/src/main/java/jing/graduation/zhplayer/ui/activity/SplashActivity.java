@@ -7,7 +7,12 @@ import android.view.View;
 import android.widget.TextView;
 
 import jing.graduation.zhplayer.R;
-
+/**
+ * Created by zhjing03 on 2016/3/27.
+ * Desc:初始化页面
+ * Version:
+ * History:
+ */
 public class SplashActivity extends BaseActivity {
     @Override
     public int getLayoutID() {
@@ -28,6 +33,7 @@ public class SplashActivity extends BaseActivity {
             public void run() {
                 Intent it = new Intent(SplashActivity.this,MainActivity.class);
                 startActivity(it);
+                finish();
             }
         },2000);
     }

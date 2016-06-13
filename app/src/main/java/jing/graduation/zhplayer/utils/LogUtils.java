@@ -13,31 +13,31 @@ public class LogUtils {
 
     /*输出Error级别的错误*/
     public static void e(String errorInfo){
-        if(!Contance.isRelease){
+        if(!Constance.isRelease){
             Log.e(mTag,errorInfo);
         }
     }
     /*输出Debug级别的错误*/
     public static void d(String errorInfo){
-        if(!Contance.isRelease){
+        if(!Constance.isRelease){
             Log.d(mTag,errorInfo);
         }
     }
     /*输出Warning级别的错误*/
     public static void w(String errorInfo){
-        if(!Contance.isRelease){
+        if(!Constance.isRelease){
             Log.w(mTag,errorInfo);
         }
     }
     /*输出Info*/
     public static void i(String errorInfo){
-        if(!Contance.isRelease){
+        if(!Constance.isRelease){
             Log.i(mTag,errorInfo);
         }
     }
     /*输出Verbose*/
     public static void v(String errorInfo){
-        if(!Contance.isRelease){
+        if(!Constance.isRelease){
             Log.v(mTag,errorInfo);
         }
     }

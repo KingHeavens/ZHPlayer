@@ -16,15 +16,15 @@ public interface IUI {
      * 初始化布局
      */
     void initView();
-
-    /**
-     *初始化数据
-     */
-    void initData();
     /**
      *添加监听
      */
     void initListener();
+    /**
+     *初始化数据
+     */
+    void initData();
+
 
     /**
      *点击事件
